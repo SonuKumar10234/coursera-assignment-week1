@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align:center;
+    margin-top:25px;
+}
+#container{
+    justify-content:end;
+    width:100%;
+    margin-top:20px;
+}
+#box1{
+    border:2px solid black;
+    background-color:#E0E0E0;
+    width:32%;
+    height:40%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top:10px;
+    float:left;
+    margin-left:10px;
+    height:180px;
+}
+#topic1{
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    background-color: orange;
+    color:black;
+    float:right;
+    width:25%;
+    text-align: center;
+    font-size:large;
+}
+#box2{
+    border:2px solid black;
+    background-color: #E0E0E0;
+    width:32%;
+    height:40%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top:10px;
+    float:left;
+    margin-left:15px;
+    height:180px;
+}
+#topic2{
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    background-color : orangered;
+    float:right;
+    width:25%;
+    text-align: center;
+    font-size:large;
+
+}
+#box3{
+    border:2px solid black;
+    background-color: #E0E0E0;
+    width:32%;
+    height:40%;
+    padding:0 0 10px 10px;
+    margin-top:10px;
+    float:right;
+    margin-right:10px;
+    height:180px;
+}
+#topic3{
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    background-color: yellowgreen;
+    float:right;
+    width:25%;
+    text-align: center;
+    font-size:large;
+}
+@media (min-width: 993px){
+    #box1{
+        height:210px;
+    }
+    #box2{
+        height:210px;
+    }
+    #box3{
+        height:210px;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+   
+    #box1{
+        width:46%;
+        float:left;
+        margin-left:25px;
+        padding-bottom: 0px;
+        height:200px;
+    }
+    #box2{
+        width:46%;
+        float:left;
+        margin-left:15px;
+        height:200px;
+    }
+    #box3{
+        
+        width:94%;
+        margin-top:30px;
+        height:120px;
+        margin-left:25px;
+        float:left;
+    }
+    #topic1{
+        width:30%;
+    }
+    #topic2{
+        width:30%;
+    }
+    #topic3{
+        width:15%;
+    }
+}
+@media (max-width:767px){
+    
+    #box1{
+        width: 90%;
+        height:auto;
+        margin-left:18px;
+    }
+    #box2{
+        width: 90%;
+        height:auto;
+        margin-left:18px;
+    }
+    #box3{
+        width: 90%;
+        height:auto;
+        float: left;
+        margin-left:18px;
+        margin-bottom:20px;
+    }  
+}
